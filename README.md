@@ -55,6 +55,7 @@ php artisan storage:link
 - MySQL8.0.26
 
 ## ER図
+<img width="1379" alt="スクリーンショット 2025-01-31 18 13 31" src="https://github.com/user-attachments/assets/2ceb64a5-8341-4282-b2ee-4c1e60f42e7d" />
 
 
 
