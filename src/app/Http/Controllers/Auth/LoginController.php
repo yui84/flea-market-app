@@ -60,12 +60,6 @@ class LoginController extends Controller
     {
         if (Auth::attempt($request->only('email', 'password'))) {
 
-            if (!Auth::user()->hasVerifiedEmail()) {
-                Auth::logout();
-
-                return redirect()->route('verification.notice');
-            }
-
             return redirect()->intended($this->redirectTo);
         }
 
