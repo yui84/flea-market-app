@@ -1,0 +1,197 @@
+.all-contents {
+    width: 90vw;
+    margin: 60px auto;
+}
+
+@media screen and (max-width:768px) {
+    .all-contents {
+        width: 50vw;
+    }
+}
+
+.detail-contents {
+    display: flex;
+}
+
+.left-content {
+    width: 50%;
+    padding: 30px;
+}
+
+.img-content {
+    width: 90%;
+    height: 600px;
+}
+
+.right-content {
+    width: 50%;
+}
+
+.item-name {
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.brand {
+    margin-top: -30px;
+}
+
+.item-price {
+    font-size: 30px;
+    margin-top: -5px;
+}
+
+.good-comment {
+    display: flex;
+    margin-top: -20px;
+}
+
+.good {
+    font-size: 44px;
+    color: #000;
+    transition: color 0.3s;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.good.checked {
+    color: orange;
+}
+
+.good-count {
+    margin-top: -10px;
+    text-align: center;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
+
+.comment-count {
+    text-align: center;
+    margin-top: -12px;
+}
+
+.button-content {
+    text-align: center;
+}
+
+.purchase-link {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    width: 80%;
+    height: 48px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFF;
+    background: #ff5252;
+    border: none;
+    border-radius: 3px;
+}
+
+.title {
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.item-detail {
+    font-size: 20px;
+}
+
+.item-category {
+    margin-top: -20px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.label {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.category-type {
+    font-size: 20px;
+    padding: 2px 20px;
+    background-color: #ddd;
+    border: none;
+    border-radius: 25px;
+}
+
+.item-state {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    margin-top: -5px;
+    font-size: 20px;
+}
+
+.comment-title {
+    font-size: 34px;
+    font-weight: bold;
+    color: #636363;
+}
+
+.user-send {
+    display: flex;
+    align-items: center;
+    margin-top: -5px;
+    gap: 20px;
+}
+
+.profile-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.user-name {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.user-comment {
+    margin-top: 20px;
+    padding: 10px 10px;
+    font-size: 20px;
+    background-color: #ddd;
+    width: 80%;
+    height: 50px;
+    border: none;
+    border-radius: 3px;
+}
+
+.item-comment-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.textarea {
+    width: 80%;
+    height: 200px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.comment-button {
+    margin-top: 40px;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    width: 80%;
+    height: 48px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFF;
+    background: #ff5252;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}

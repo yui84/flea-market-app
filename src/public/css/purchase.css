@@ -1,0 +1,147 @@
+.form-contents {
+    width: 90vw;
+    margin: 60px auto;
+}
+
+@media screen and (max-width:768px) {
+    .form-contents {
+        width: 45vw;
+    }
+}
+
+.all-contents {
+    display: flex;
+}
+
+.left-group {
+    padding: 30px 0;
+    width: 55vw;
+    border-bottom: 1px solid #000;
+}
+
+.item {
+    display: flex;
+    gap: 60px;
+}
+
+.item-image {
+    width: 250px;
+    height: 250px;
+}
+
+.item-name {
+    margin-top: -5px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.item-price {
+    margin-top: -10px;
+    font-size: 28px;
+}
+
+.title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: -10px;
+    margin-left: 40px;
+}
+
+.select-inner {
+    margin: 20px 0 15px 80px;
+    position: relative;
+}
+
+.select {
+    padding: 8px 12px;
+    margin-top: 4px;
+    font-size: 14px;
+    width: 40%;
+    height: 34px;
+    border: 1px solid #9e9e9e;
+    border-radius: 3px;
+    font-weight: bold;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.select-inner::after {
+    position: absolute;
+    top: 50%;
+    left: 36%;
+    width: 0;
+    height: 0;
+    border-top: 10px solid #000;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    content: '';
+    transform: translateY(-30%);
+}
+
+.delivery {
+    display: flex;
+    justify-content: space-between;
+}
+
+.address-link {
+    margin-right: 40px;
+    font-size: 18px;
+    color: #1d93f9;
+    text-decoration: none;
+    text-align: center;
+}
+
+.user-address {
+    margin: 20px 0 15px 80px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.right-contents {
+    padding: 30px 0;
+    width: 40vw;
+}
+
+.summary {
+    margin: 0 auto;
+    width: 70%;
+    font-size: 24px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-row {
+    border: 1px solid #000;
+}
+
+.table-title {
+    font-weight: 400;
+}
+
+.table-title,
+.table-inner {
+    padding: 40px 0;
+}
+
+.buy-button {
+    display: block;
+    margin: 60px auto;
+    width: 70%;
+    height: 48px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFF;
+    background: #ff5252;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.error {
+    margin-left: 80px;
+    color: #ff0000;
+}
