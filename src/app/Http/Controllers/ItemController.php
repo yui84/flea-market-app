@@ -41,7 +41,7 @@ class ItemController extends Controller
         if ($request1->hasFile('image')) {
             $dir = 'ProfileImages';
             $file_name = $request1->file('image')->getClientOriginalName();
-            $request1->file('image')->storeAs('public/' . $dir, $file_name);
+            $request1->file('image')->storeAs('public/' . $dir , $file_name);
             $imagePath = 'storage/' . $dir . '/' . $file_name;
     } else {
         $imagePath = $user->profile ? $user->profile->image : 'storage/ProfileImages/default-avatar.png';
